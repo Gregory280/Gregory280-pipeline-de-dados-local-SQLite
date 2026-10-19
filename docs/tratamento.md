@@ -9,10 +9,10 @@
 | email | Remover espaços nas extremidades e padronizar letras minúsculas. |
 | telefone | Remover caracteres de formatação e espaços. |
 | sexo | — |
-| data_nascimento | Converter data numérica do Excel para DD-MM-AAAA. |
+| data_nascimento | Converter data numérica do Excel para AAA-MM-DD. |
 | cidade | — |
 | estado | — |
-| data_matricula | Converter data numérica do Excel para DD-MM-AAAA. |
+| data_matricula | Converter data numérica do Excel para AAA-MM-DD. |
 | status | — |
 
 **Orientações gerais para esta tabela:**
@@ -39,9 +39,9 @@
 | matricula_id | — |
 | aluno_id | — |
 | plano_id | — |
-| data_inicio | Converter data numérica do Excel para DD-MM-AAAA. |
-| data_fim | Converter data numérica do Excel para DD-MM-AAAA. |
-| data_fim_prevista | Converter data numérica do Excel para DD-MM-AAAA. |
+| data_inicio | Converter data numérica do Excel para AAA-MM-DD. |
+| data_fim | Converter data numérica do Excel para AAA-MM-DD. |
+| data_fim_prevista | Converter data numérica do Excel para AAA-MM-DD. |
 | status | — |
 | motivo_cancelamento | — |
 
@@ -60,8 +60,8 @@
 | competencia | Padronizar para MM-AAAA. |
 | valor | Padronizar unidade monetária. |
 | valor_pago | Valor 0 é diferente de valor ausente. |
-| data_vencimento | Converter data numérica do Excel para DD-MM-AAAA. |
-| data_pagamento | Converter data numérica do Excel para DD-MM-AAAA. |
+| data_vencimento | Converter data numérica do Excel para AAA-MM-DD. |
+| data_pagamento | Converter data numérica do Excel para AAA-MM-DD. |
 | forma_pagamento | — |
 | status | — |
 
@@ -73,6 +73,6 @@
 | presenca_id | — |
 | aluno_id | — |
 | matricula_id | — |
-| data | Converter data numérica do Excel para DD-MM-AAAA. |
+| data | Converter data numérica do Excel para AAA-MM-DD. |
 | hora_entrada | Converter a fração númerica de dia do Excel para HH:MM |
 | modalidade | — |
