@@ -1,4 +1,4 @@
-WITH frequencia AS (
+WITH alunos_freq_30_dias AS (
 SELECT
   aluno_id,
   MAX(data) AS ultima_presenca,
@@ -26,5 +26,5 @@ SELECT
 FROM
 	stg_alunos AS alu
 LEFT JOIN
-	frequencia AS fre
+	alunos_freq_30_dias AS fre
 		ON alu.aluno_id = fre.aluno_id;
