@@ -1,4 +1,3 @@
--- int_matriculas_detalhadas
 SELECT
 	mat.matricula_id,
 	mat.aluno_id,
