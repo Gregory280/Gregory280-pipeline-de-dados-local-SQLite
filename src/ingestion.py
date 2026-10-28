@@ -1,12 +1,8 @@
 # Bibliotecas
-from pathlib import Path
 import pandas as pd
 import sqlite3
 
-# Caminhos
-SOURCE = Path(__file__).resolve().parents[1]
-RAW = SOURCE / "data" / "raw"
-DATABASE = SOURCE / "db" / "warehouse.db"
+from config import RAW, DATABASE
 
 # Mapeamento das tabelas
 TABELAS = {
