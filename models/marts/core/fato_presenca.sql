@@ -17,4 +17,4 @@ SELECT
   hora_entrada,
   modalidade
 FROM
-  stg_presenca;
+  stg_presencas;
