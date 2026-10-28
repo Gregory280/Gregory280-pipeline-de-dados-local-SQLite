@@ -1,3 +1,6 @@
+DROP VIEW IF EXISTS stg_alunos;
+
+CREATE VIEW stg_alunos AS
 SELECT
   aluno_id,
   TRIM(nome) AS nome,

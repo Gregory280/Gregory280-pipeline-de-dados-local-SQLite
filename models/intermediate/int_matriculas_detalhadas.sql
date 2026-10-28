@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS int_matriculas_detalhadas;
+
+CREATE VIEW int_matriculas_detalhadas AS
+
 SELECT
 	mat.matricula_id,
 	mat.aluno_id,

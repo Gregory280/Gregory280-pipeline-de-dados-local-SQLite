@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS stg_presencas;
+
+CREATE VIEW stg_presencas AS
+
 SELECT
   presenca_id,
   aluno_id,

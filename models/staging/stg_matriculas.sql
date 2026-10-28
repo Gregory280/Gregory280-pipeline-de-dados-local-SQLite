@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS stg_matriculas;
+
+CREATE VIEW stg_matriculas AS
+
 SELECT
   matricula_id,
   aluno_id,

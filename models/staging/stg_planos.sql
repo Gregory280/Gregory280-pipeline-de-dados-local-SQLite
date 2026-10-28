@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS stg_planos;
+
+CREATE VIEW stg_planos AS
+
 SELECT
   plano_id,
   nome_plano,

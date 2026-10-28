@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS int_alunos_frequencia;
+
+CREATE VIEW int_alunos_frequencia AS
+
 WITH alunos_freq_30_dias AS (
 SELECT
   aluno_id,

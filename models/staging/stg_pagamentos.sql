@@ -1,3 +1,7 @@
+DROP VIEW IF EXISTS stg_pagamentos;
+
+CREATE VIEW stg_pagamentos AS
+
 SELECT
   pagamento_id,
   aluno_id,
